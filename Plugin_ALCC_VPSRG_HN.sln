@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin_ALCC_VPSRG_HN", "Plugin_ALCC_VPSRG_HN.csproj", "{23D9E78B-64E0-4311-9DE6-66085900FF6D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23D9E78B-64E0-4311-9DE6-66085900FF6D}.Debug|x64.ActiveCfg = Debug|x64
+		{23D9E78B-64E0-4311-9DE6-66085900FF6D}.Debug|x64.Build.0 = Debug|x64
+		{23D9E78B-64E0-4311-9DE6-66085900FF6D}.Release|x64.ActiveCfg = Release|x64
+		{23D9E78B-64E0-4311-9DE6-66085900FF6D}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {44E313DD-1CC8-403D-8CA2-7E82FDAE1E4D}
+	EndGlobalSection
+EndGlobal
