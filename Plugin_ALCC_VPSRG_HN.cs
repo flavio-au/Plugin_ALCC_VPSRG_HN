@@ -708,7 +708,7 @@ namespace VMS.TPS
             }
             else
             {
-                VPSRG_HN_track = VPSRG_HN_track + "NaN, ,"; // 2 comas for Col AR!
+                VPSRG_HN_track = VPSRG_HN_track + "NaN,"; 
                 selected_structs.Add(Tuple.Create(title + " - - - - ", "None"));
             }
 
@@ -913,7 +913,7 @@ namespace VMS.TPS
 
             String file_name_str = @"c:\temp\VPSRG_HN_" + my_patient.Id + "_SelectedStructures.txt";
             // create or overwrite
-            System.IO.File.WriteAllText(file_name_str, VPSRG_HN_track, Encoding.UTF8);
+            System.IO.File.WriteAllText(file_name_str, text, Encoding.UTF8);
 
             System.Windows.MessageBox.Show("File " + file_name + " saved." + System.Environment.NewLine +
                 " (path copied to clipboard)");
