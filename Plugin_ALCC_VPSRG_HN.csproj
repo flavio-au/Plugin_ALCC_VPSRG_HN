@@ -62,8 +62,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\plugins\Plugin_ALCC_VPSRG_HN.cs" />
     <Compile Include="ALCC_QM.cs" />
+    <Compile Include="Plugin_ALCC_VPSRG_HN.cs" />
     <Compile Include="Select.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
