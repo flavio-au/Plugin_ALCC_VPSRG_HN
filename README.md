@@ -16,6 +16,6 @@ For inserting the data in excel, select the any cell OF THE ROW were you want th
 then you have to run the macro (Alt + F8 shows the macros) “Import_VPSRG_HN” and there it is!
 The macro saves the workbook before running (as undo is not available) just in case.
 For comparing data with Vic constrains, just run macro compare_values.
-The selection logic is presented on 
+The selection logic is presented on file LogicOfStrSelection.docx
 
 Hope it will be useful!
