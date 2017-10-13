@@ -11,7 +11,7 @@ using VMS.TPS.Common.Model.Types;
 namespace VMS.TPS
 {
     /// <summary>
-    /// A class to open a form with a list of items expressed on radiobutons to choose from
+    /// A class to open a form with a list of items expressed on radiobutons to choose from.
     /// </summary>
     public class SelectBox
     {
