@@ -728,8 +728,8 @@ namespace VMS.TPS
                 {
                     selected_strct = set_of_structs.First();
                 }
-                // D_Mean
-                Dose_Metric = ALCC_QM.Mean_Dose(my_plan, selected_strct, DoseValuePresentation.Absolute);
+                // D_Max
+                Dose_Metric = ALCC_QM.Max_Dose(my_plan, selected_strct, DoseValuePresentation.Absolute);
                 VPSRG_HN_track = VPSRG_HN_track + Math.Round(Dose_Metric.Dose, 2).ToString() + ", ,";// 2 comas for Col AS!
                 selected_structs.Add(Tuple.Create(title + " - - - - ", selected_strct.Id));
             }
