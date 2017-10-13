@@ -47,7 +47,8 @@ namespace VMS.TPS
             // this string will get the text reporting for import on
             // VPSRG Head and Neck case-tracking sheet V2.xlsm. 
             // First three colums and fifth cannot be populated
-            String VPSRG_HN_track = ",,," + my_patient.Id + ",,";  
+            // Text output needs to be uploaded on Col 4 (Excel module)
+            String VPSRG_HN_track = my_patient.Id + ",,";  
                                                                    
 
             // "Metric" is a constant with a unit, even a "relative" unit (%)
