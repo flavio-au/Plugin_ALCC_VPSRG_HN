@@ -21,7 +21,7 @@ Attribute Import_VPSRG_HN.VB_ProcData.VB_Invoke_Func = " \n14"
     
     prev_conn_count = ActiveWorkbook.Connections.Count
     workRow = ActiveCell.Row
-    ActiveSheet.Cells(workRow, 1).Activate
+    ActiveSheet.Cells(workRow, 4).Activate
                 
     With ActiveSheet.QueryTables.Add(Connection:= _
         my_path, Destination:=ActiveCell)
