@@ -767,7 +767,7 @@ namespace VMS.TPS
                 my_list.Clear();
                 foreach (Structure ptv in my_plan.StructureSet.Structures.
                     Where(s => s.Id.ToLower().Contains("ptv") & 
-                    s.Id.ToLower().Contains(sorted_ptvs.First().Item2.ToString()) 
+                    s.Id.ToLower().Contains(sorted_ptvs.First().Item2.ToString().Replace("0","")) 
                     & !s.IsEmpty))
                 { my_list.Add(ptv.Id); }
                 selectDiag = new SelectBox(my_list, "PTV High");
@@ -810,7 +810,7 @@ namespace VMS.TPS
                 my_list.Clear();
                 foreach (Structure ptv in my_plan.StructureSet.Structures.
                     Where(s => s.Id.ToLower().Contains("ptv") &
-                    s.Id.ToLower().Contains(sorted_ptvs.First().Item2.ToString())
+                    s.Id.ToLower().Contains(sorted_ptvs.First().Item2.ToString().Replace("0", ""))
                     & !s.IsEmpty))
                 { my_list.Add(ptv.Id); }
                 selectDiag = new SelectBox(my_list, "PTV Int");
@@ -836,7 +836,7 @@ namespace VMS.TPS
                 my_list.Clear();
                 foreach (Structure ptv in my_plan.StructureSet.Structures.
                     Where(s => s.Id.ToLower().Contains("ptv") &
-                    s.Id.ToLower().Contains(sorted_ptvs.First().Item2.ToString())
+                    s.Id.ToLower().Contains(sorted_ptvs.First().Item2.ToString().Replace("0", ""))
                     & !s.IsEmpty))
                 { my_list.Add(ptv.Id); }
                 selectDiag = new SelectBox(my_list, "PTV Low");
